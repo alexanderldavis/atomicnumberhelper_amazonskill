@@ -3,7 +3,7 @@
 var AllFunctions = require('./AllFunctions'),
     elementsList = require('./elementsList');
 
-var APP_ID = "amzn1.ask.skill.a734ad0d-5f3b-45da-9933-5598046903d6";
+var APP_ID = "";
 
 var ElementIdentifier = function () {
     AllFunctions.call(this, APP_ID);
