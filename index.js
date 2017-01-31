@@ -3,7 +3,7 @@
 var AllFunctions = require('./AllFunctions'),
     elementsList = require('./elementsList');
 
-var APP_ID = "";
+var APP_ID = "update";
 
 var ElementIdentifier = function () {
     AllFunctions.call(this, APP_ID);
