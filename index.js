@@ -26,7 +26,7 @@ ElementIdentifier.prototype.intentHandlers = {
             elementName = atomicWeightSlot.value.toLowerCase();
         }
 
-        var cardTitle = "Atomic number For " + elementName,
+        var cardTitle = "Answer: " + elementName,
             atomicWeightReturn = elementsList[elementName],
             speechOutput,
             repromptOutput;
